@@ -1,15 +1,21 @@
-
+/* NOTE:
+H1- TOP-HEADINGS
+H2- BIG-HEADINGS
+H3- MEDIUM HEADING
+H4- MED-SM-HEADING
+H5- SMALL-HEADING
+H6- SMALLEST-HEADING */
 /* mains */
 body {
   font-weight: 500;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat bold 700 italic", sans-serif;
   font-weight: bold;
 }
 
-h1{
+h1 {
   font-size: 4.5rem;
   line-height: 1.2;
   color: black;
@@ -39,7 +45,7 @@ h3 {
   padding-bottom: .5px;
 }
 
-.man-image{
+.man-image {
   width: 60%;
 }
 
@@ -48,36 +54,35 @@ h3 {
   color: black;
 }
 
- /* navbar */
- .navbar {
-   padding: 0% 5%;
-   font-size: 1.5rem;
-   font-family: "Montserrat", sans-serif;
- }
+/* navbar */
+.navbar {
+  padding: 0% 5%;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
 
- .navbar-brand {
-   font-size: 2rem;
-   word-spacing: .25rem;
-   font-family: "Ubuntu", sans-serif;
- }
+.navbar-brand {
+  font-size: 2rem;
+  word-spacing: .25rem;
+  font-family: "Ubuntu", sans-serif;
+}
 
- .nav-item {
-   padding-left: 1rem;
- }
+.nav-item {
+  padding-left: 1rem;
+}
 
- .nav-link {
-   font-family: sans-serif;
-   font-weight: lighter;
- }
+.nav-link {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
 
-.dropdown-menu{
+.dropdown-menu {
   background-color: #f0c929;
 }
 
-
 /* top-pics  */
 #top-pics {
-  padding: 2% 15% ;
+  padding: 2% 15%;
   align-items: center;
   text-align: center;
   spacing: 3rem;
@@ -113,7 +118,7 @@ h3 {
 }
 
 .carousel-item {
-  padding: 2% 20% 2%;
+  padding: 0 20% 2%;
 }
 
 /* cta  */
@@ -133,7 +138,6 @@ h3 {
 }
 
 /* footer */
-
 #footer {
   text-align: center;
   padding: 1rem 1rem;
@@ -151,17 +155,54 @@ h3 {
 
   #title {
     text-align: center;
+    font-size: 10rem;
   }
 
-  #pricing {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .carousel-item {
+    padding: 0 20% 2%;
+  }
+
+  .navbar {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .navbar-dropdown {
+    font-size: 1.5rem;
+  }
+
+  .Download-buttons {
+    width: 30%;
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+
+  .dropdown-item {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  em{
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  #top-pics {
+    padding: 2% 5%;
   }
 }
 
-.csslintric{
-  "ignore": [
-    "ids"
-  ]
-}
-}
+.csslintric {
+  "ignore": [ "ids"
+    ]
