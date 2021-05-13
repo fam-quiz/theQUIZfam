@@ -74,6 +74,7 @@ h3 {
   background-color: #f0c929;
 }
 
+
 /* top-pics  */
 #top-pics {
   padding: 2% 15%;
@@ -145,6 +146,10 @@ h3 {
   h2 {
     font-size: 2.5rem;
     line-height: normal;
+  }
+  
+  .disabled{
+    text-align: center;
   }
 
   #title {
